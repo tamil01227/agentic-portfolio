@@ -1,6 +1,6 @@
 # Agentic AI team portfolio (Next.js 14, App Router, TS, Tailwind, Framer Motion)
 Run: `npm install && npm run dev`  |  Build: `npm run build`
-- Cloudflare Workers: `npm run deploy` (requires Wrangler authentication).
+- Cloudflare Workers: set the Cloudflare build command to `npm run build:cloudflare` and deploy command to `npx wrangler deploy`, or run `npm run deploy` locally (requires Wrangler authentication).
 - Rename the team: `lib/config.ts` → `TEAM_NAME` (single source).
 - All copy and data (services, cases, team, stack): `lib/config.ts`.
 - Portraits: add greyscale-friendly JPGs to `public/team/{priyadharshini,tamilselvi,sujitha,megalai}.jpg` (initials show until then).

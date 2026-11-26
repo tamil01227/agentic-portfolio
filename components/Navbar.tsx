@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav aria-label="Primary" className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-6">
         <a href="#home" aria-label={`${TEAM_NAME} home`} className="inline-flex shrink-0 items-center gap-2">
           <span className="grid h-12 w-12 place-items-center overflow-hidden rounded-xl border border-hair bg-white">
-            <Image src="/qubit-ai-mark.webp" alt="" width={48} height={48} priority unoptimized className="h-11 w-11 object-contain" />
+            <Image src="/qubriva-ai-mark.webp" alt="" width={48} height={48} priority unoptimized className="h-11 w-11 object-contain" />
           </span>
           <span className="text-xl font-semibold tracking-tight text-ink">{TEAM_NAME}</span>
         </a>

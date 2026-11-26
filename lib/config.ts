@@ -1,5 +1,5 @@
 // Change the team name HERE only.
-export const TEAM_NAME = "Qubit.ai";
+export const TEAM_NAME = "qubriva.ai";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/sujitha-a-421878451/";
 export const EMAIL = "tamilselvir932@gmail.com";
 export const LOCATION = "Coimbatore, Tamil Nadu, India";
